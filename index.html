@@ -111,12 +111,12 @@
             abstract.hide = function () {
                 this._div.classList.remove("abstractUncollapsed");
                 this._div.classList.add("abstract");
-                this._div.innerHTML = 'i'
+                this._div.innerHTML = 'K'
             }
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = '<strong style="font-size: 10pt;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/qx9nDj5/Nat-Area-Logo-JPG.jpg" alt="Nat-Area-Logo-JPG" width="275" height="91" /></strong> <strong style="font-size: 10pt;"><strong>The SMC Natural Area Trail Map comes from a QGIS mapping project. Geographer Richard Kujawa built the project and the map using GPS data provided by Natural Area Manager Professor Declan McCabe. Data from Open Street Map were also used. Basemap is from the Environmental Systems Research Institute (ESRI) base map set. The Woodside trail was extracted from Open Street Map. Float over purple markers for interpretive sign content. Click on layers icon in top right hand corner to add/subtract trails or change base map.</strong></strong><br /><p style="text-align: center;"><span style="font-size: 10pt;"><strong><a class="inline_disabled" title="Link" href="https://www.smcvt.edu/" target="_blank" rel="noopener">CLICK HERE FOR Saint Michael\'s College website</a> </strong></span></p>';
+                this._div.innerHTML = '<strong style="font-size: 10pt;"><strong>The SMC Natural Area Trail Map comes from a QGIS mapping project. Geographer Richard Kujawa built the project and the map using GPS data provided by Natural Area Manager Professor Declan McCabe. Data from Open Street Map were also used. Basemap is from the Environmental Systems Research Institute (ESRI) base map set. The Woodside trail was extracted from Open Street Map. Float over purple markers for interpretive sign content. Click on layers icon in top right hand corner to add/subtract trails or change base map.</strong></strong><br /><p style="text-align: center;"><span style="font-size: 10pt;"><strong><a class="inline_disabled" title="Link" href="https://www.smcvt.edu/" target="_blank" rel="noopener">CLICK HERE FOR Saint Michael\'s College website</a> </strong></span></p>';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
